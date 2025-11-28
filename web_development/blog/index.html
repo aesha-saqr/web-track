@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <header>
+        <h1>Aesha's Blog</h1>
+    </header>
+
+    <div class="controls">
+        <select id="categoryFilter">
+            <option value="All">All Categories</option>
+            <option value="Tech">Tech</option>
+            <option value="Travel">Travel</option>
+            <option value="Food">Food</option>
+        </select>
+
+        <input type="text" id="searchInput" placeholder="Search posts..." />
+    </div>
+
+    <section class="blog-container" id="blogContainer"></section>
+
+    <div class="pagination">
+        <button id="prevBtn">Previous</button>
+        <button id="nextBtn">Next</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
